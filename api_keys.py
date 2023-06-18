@@ -3,5 +3,5 @@
 # The key will not be pushed to GitHub when you commit your code
 
 keys = {
-    'OPENAI_API_KEY': "FILL IN YOUR OPENAI API KEY HERE",
+    'OPENAI_API_KEY': "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",
 }
