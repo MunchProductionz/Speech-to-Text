@@ -75,7 +75,17 @@ Proceed to start the virtual environment and add the whisper package. When using
 
 - `pip install -U openai-whisper`
 
-Make sure you have ffmpeg installed on your computer. When using Windows, ensure that you have Chocolatey installed. If not, follow this guide:
+Make sure you have `ffmpeg` installed on your computer, if not, download the latest version of `ffmpeg` (use the first link) and follow the guides (second and third link) to add the `ffmpeg' binary to your PATH environment variable:
+
+- `https://ffmpeg.org/download.html`
+- `https://www.youtube.com/watch?v=5xgegeBL0kw`
+- `https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/`
+
+Proceed to install `ffmpeg` as a Python package using:
+
+- `pip install ffmpeg`
+
+When using Windows, ensure that you have Chocolatey installed. If not, follow this guide:
 
 - `https://chocolatey.org/install`
 

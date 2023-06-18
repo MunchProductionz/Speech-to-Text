@@ -15,11 +15,14 @@ def speech_to_text_whisper(audio_filename, filetype="mp3", model="base"):
 
     # Set the path to the audio file
     audio_filepath = "audio/" + audio_filename + "." + filetype
-    text_filepath = "text/" + audio_filename + ".txt"
+    text_filepath = "text/" + audio_filename + "1.txt"
 
     # Load the model and transcribe the audio file
     model = whisper.load_model(model)
     result = model.transcribe(audio_filepath, fp16=False)
+
+    # print the recognized text
+    print(result['text'])
     
     # Write text to a file
     with open(text_filepath, 'w') as text_file:
@@ -50,4 +53,4 @@ def speech_to_text_openai(audio_filename, filetype="mp3", model="whisper-1", res
         )
     print(transcript)
     
-speech_to_text_whisper("test", filetype="m4a")
+speech_to_text_whisper("test", filetype="m4a", model="base")
