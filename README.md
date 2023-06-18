@@ -65,6 +65,11 @@ To update the package to the latest version of this repository, please run:
 
 - `pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git`
 
+When using a virtual environment, 2 files are too big for GitHub. Get around this by discarding the following changes before committing:
+
+- `dnnl.lib`
+- `torch_cpu.dll`
+
 ---
 
 ## Useful development plugins
