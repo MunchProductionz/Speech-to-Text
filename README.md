@@ -2,7 +2,7 @@
 
 A project to learn speech-to-voice APIs and automatic report making using:
 - Python 3.10.1
-- *FILL IN API*
+- Whisper AI (OpenAI)
 
 ---
 
@@ -58,6 +58,13 @@ To run a single script with poetry, use:
 
 - `poetry run python you_script.py`
 
+
+### Updating Whisper AI
+
+To update the package to the latest version of this repository, please run:
+
+- `pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git`
+
 ---
 
 ## Useful development plugins
@@ -74,8 +81,8 @@ To run a single script with poetry, use:
     - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
     - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
     - [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
-- MongoDB
-    - [MongoDB for VS Code](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
+- Whisper AI (OpenAI)
+    - [Whisper AI](https://pypi.org/project/openai-whisper/)
 
 - Styling
     - Uses ESLint and Prettier
