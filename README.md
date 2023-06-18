@@ -59,6 +59,12 @@ To run a single script with poetry, use:
 - `poetry run python you_script.py`
 
 
+## Whisper AI
+
+### Usage
+
+Whisper AI has multiple models, having a trade-off between speed and quality. A good balance can be found using the `Medium` model.
+
 ### Updating Whisper AI
 
 To update the package to the latest version of this repository, please run:
