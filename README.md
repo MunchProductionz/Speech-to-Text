@@ -67,13 +67,21 @@ Whisper AI has multiple models, having a trade-off between speed and quality. A 
 
 ### Installing Whisper AI
 
-There are 2 fiels that are too big for GitHub (above 100 MB), and we therefore need to use Git LFS. Start by following this guide:
+There are 2 files that are too big for GitHub (above 100 MB), and we therefore need to use Git LFS. Start by following this guide:
 
 - `https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage`
+
+Follow this guide to install Whisper AI:
+
+- `https://pypi.org/project/openai-whisper/`
 
 Proceed to start the virtual environment and add the whisper package. When using pip, write:
 
 - `pip install -U openai-whisper`
+
+Make sure you have ffmpeg installed on your computer. When using Windows, ensure that you have Chocolatey installed. If not, follow this guide:
+
+- `https://chocolatey.org/install`
 
 ### Updating Whisper AI
 
@@ -88,12 +96,22 @@ When using a virtual environment, 2 files are too big for GitHub. Get around thi
 
 ---
 
+### Testing
+
+## Test files
+
+The repository contains a test file named `test.m4a`. The actual text can be found on the follow websit under the title `"Why tunnels?"`:
+
+- `https://www.boringcompany.com/`
+
+
 ## Useful development plugins
 
 - Python related:
     - [Python Environment Manager](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager)
     - [Python Indent](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent)
 - Git (gud):
+    - [Git LFS](https://git-lfs.com/)
     - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
     - [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
     - [GitLens - Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
