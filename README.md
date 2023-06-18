@@ -38,9 +38,25 @@ Virtual environment created according to [this guide](https://realpython.com/pyt
 
 ### Further reading in package management
 
-`venv` isn't deterministic and we may encounter errors in the future. This is an alternative should it be required:
+`venv` isn't deterministic and we may encounter errors in the future. This is an alternative is used:
 
 - [Poetry - Python packaging and dependency management made easy](https://python-poetry.org/)
+
+To start a poetry shell, use:
+
+- `poetry shell`
+
+To deactivate and exit the shell, use:
+
+- `exit`
+
+To only deactivate the virtual environsment without leaving the shell, use:
+
+- `deactivate`
+
+To run a single script with poetry, use:
+
+- `poetry run python you_script.py`
 
 ---
 
