@@ -67,10 +67,6 @@ Whisper AI has multiple models, having a trade-off between speed and quality. A 
 
 ### Installing Whisper AI
 
-There are 2 files that are too big for GitHub (above 100 MB), and we therefore need to use Git LFS. Start by following this guide:
-
-- `https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage`
-
 Follow this guide to install Whisper AI:
 
 - `https://pypi.org/project/openai-whisper/`
@@ -83,16 +79,34 @@ Make sure you have ffmpeg installed on your computer. When using Windows, ensure
 
 - `https://chocolatey.org/install`
 
-### Updating Whisper AI
+### Large Files
 
-To update the package to the latest version of this repository, please run:
+There are 2 files that are too big for GitHub (above 100 MB), and we therefore need to use Git LFS. Start by following this guide:
 
-- `pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git`
+- `https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage`
 
 When using a virtual environment, 2 files are too big for GitHub. Get around this by discarding the following changes before committing:
 
 - `dnnl.lib`
 - `torch_cpu.dll`
+
+Follow this guide to use Git LFS:
+
+- `https://www.youtube.com/watch?v=9HCsSD5PMSk`
+
+Use Git to open the repository and use:
+
+1. `git lfs track "FILE.NAME`
+2. `git lfs push --all origin main`
+3. `git add .`
+4. `git commit -m "COMMIT MESSAGE"`
+5. `git push -u origin master`
+
+### Updating Whisper AI
+
+To update the package to the latest version of this repository, please run:
+
+- `pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git`
 
 ---
 
