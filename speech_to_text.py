@@ -14,12 +14,12 @@ def speech_to_text(audio_filename, filetype="mp3", model="whisper-1", response_f
     
     # Transcribe the audio file using the OpenAI API
     with open(audio_filepath, "rb") as audio_file:
-    transcript = openai.Audio.transcribe(
-        file = audio_file,
-        model = model,
-        response_format=response_format,
-        language=language
-    )
+        transcript = openai.Audio.transcribe(
+            file = audio_file,
+            model = model,
+            response_format=response_format,
+            language=language
+        )
     print(transcript)
     
-speech_to_text("test")
+speech_to_text("test", filetype="m4a")

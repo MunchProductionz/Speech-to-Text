@@ -65,6 +65,16 @@ To run a single script with poetry, use:
 
 Whisper AI has multiple models, having a trade-off between speed and quality. A good balance can be found using the `Medium` model.
 
+### Installing Whisper AI
+
+There are 2 fiels that are too big for GitHub (above 100 MB), and we therefore need to use Git LFS. Start by following this guide:
+
+- `https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage`
+
+Proceed to start the virtual environment and add the whisper package. When using pip, write:
+
+- `pip install -U openai-whisper`
+
 ### Updating Whisper AI
 
 To update the package to the latest version of this repository, please run:
