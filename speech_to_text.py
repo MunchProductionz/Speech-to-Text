@@ -31,7 +31,6 @@ def speech_to_text_whisper(audio_filename, filetype="mp3", model="base"):
     return print('Transcription saved as ' + audio_filename + '.txt')
 
 
-
 def speech_to_text_openai(audio_filename, filetype="mp3", model="whisper-1", response_format="text", language="English"):
     
     # Set the OpenAI API key
@@ -53,4 +52,6 @@ def speech_to_text_openai(audio_filename, filetype="mp3", model="whisper-1", res
         )
     print(transcript)
     
+    
+# Run the function
 speech_to_text_whisper("test", filetype="m4a", model="base")
