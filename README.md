@@ -30,6 +30,15 @@ Virtual environment created according to [this guide](https://realpython.com/pyt
 5. Deactivate virtual environment with `deactivate`
 
 
+### Packages
+
+If using pip, install the following packages:
+
+- `whisper`
+- `openai`
+- `openai-whisper`
+- `ffmpeg`
+
 ### How to generate `requirements.txt`
 
 1. Initiate virtual environment according to previous section 
