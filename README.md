@@ -3,6 +3,7 @@
 A project to learn speech-to-voice APIs and automatic report making using:
 - Python 3.10.1
 - Whisper AI (OpenAI)
+- [Assembly API?](https://www.youtube.com/shorts/74zbgeH91wc)
 
 ---
 
